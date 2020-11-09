@@ -1,0 +1,69 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "what's up"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "morning",
+            "entity": "TME"
+          }
+        ],
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "value": "afternoon",
+            "entity": "TME"
+          }
+        ],
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "evening",
+            "entity": "TME"
+          }
+        ],
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "night",
+            "entity": "TME"
+          }
+        ],
+        "text": "good night"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

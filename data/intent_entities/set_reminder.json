@@ -1,0 +1,404 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "text": "remind me to off the cooker after 20 minutes",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 27,
+                        "value": "off the cooker",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 34,
+                        "end": 44,
+                        "value": "20 minutes",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to cut vegetables after 30 minutes",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 34,
+                        "end": 44,
+                        "value": "30 minutes",
+                        "entity": "TME"
+                    },
+                    {
+                        "start": 13,
+                        "end": 27,
+                        "value": "cut vegetables",
+                        "entity": "RMD"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to find my leather jacket before I go out",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 35,
+                        "value": "find my leather jacket",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 36,
+                        "end": 51,
+                        "value": "before I go out",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to turn off the gas stove after 2 hours",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 35,
+                        "value": "turn off the gas stove",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 36,
+                        "end": 49,
+                        "value": "after 2 hours",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to mop the floor before 9 a.m.",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 26,
+                        "value": "mop the floor",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 27,
+                        "end": 40,
+                        "value": "before 9 a.m.",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to complete my homework by tomorrow",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 33,
+                        "value": "complete my homework",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 34,
+                        "end": 45,
+                        "value": "by tomorrow",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to clean my room today",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 26,
+                        "value": "clean my room",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 27,
+                        "end": 32,
+                        "value": "today",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to take out the trash in 2 hours",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 31,
+                        "value": "take out the trash",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 32,
+                        "end": 42,
+                        "value": "in 2 hours",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to reply Jin Hang's message before night",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 37,
+                        "value": "reply Jin Hang's message",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 38,
+                        "end": 50,
+                        "value": "before night",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to submit my homework by 40 minutes",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 31,
+                        "value": "submit my homework",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 32,
+                        "end": 45,
+                        "value": "by 40 minutes",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to wash the vegetables by 8 p.m.",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 32,
+                        "value": "wash the vegetables",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 33,
+                        "end": 42,
+                        "value": "by 8 p.m.",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to buy a new pen and pencil when I'm outside",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 37,
+                        "value": "buy a new pen and pencil",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 38,
+                        "end": 54,
+                        "value": "when I'm outside",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to shut the front door at 10 p.m.",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 32,
+                        "value": "shut the front door",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 33,
+                        "end": 43,
+                        "value": "at 10 p.m.",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to be at the train station at 5 p.m.",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 36,
+                        "value": "be at the train station",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 37,
+                        "end": 46,
+                        "value": "at 5 p.m.",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to attend my class at 4 p.m.",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 28,
+                        "value": "attend my class",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 29,
+                        "end": 38,
+                        "value": "at 4 p.m.",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to check on the cooker after 35 minutes",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 32,
+                        "value": "check on the cooker",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 33,
+                        "end": 49,
+                        "value": "after 35 minutes",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to turn off the lights before I sleep",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 32,
+                        "value": "turn off the lights",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 33,
+                        "end": 47,
+                        "value": "before I sleep",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to read the exercises at 3 a.m.",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 31,
+                        "value": "read the exercises",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 32,
+                        "end": 41,
+                        "value": "at 3 a.m.",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to get the exercises from Adrian later today",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 42,
+                        "value": "get the exercises from Adrian",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 43,
+                        "end": 54,
+                        "value": "later today",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to open the door after 5 minutes",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 26,
+                        "value": "open the door",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 27,
+                        "end": 42,
+                        "value": "after 5 minutes",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to go to Chemistry class in 2 hours",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 34,
+                        "value": "go to Chemistry class",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 35,
+                        "end": 45,
+                        "value": "in 2 hours",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "remind me to bring the book with me when I leave",
+                "intent": "set_reminder",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 35,
+                        "value": "bring the book with me",
+                        "entity": "RMD"
+                    },
+                    {
+                        "start": 36,
+                        "end": 48,
+                        "value": "when I leave",
+                        "entity": "TME"
+                    }
+                ]
+            }
+        ],
+        "regex_features": [],
+        "entity_synonyms": []
+    }
+}

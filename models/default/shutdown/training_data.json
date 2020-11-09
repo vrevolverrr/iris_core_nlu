@@ -1,0 +1,169 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "shutdown",
+        "text": "shutdown computer"
+      },
+      {
+        "intent": "shutdown",
+        "text": "shutdown my computer now"
+      },
+      {
+        "intent": "shutdown",
+        "text": "can you please shutdown my computer"
+      },
+      {
+        "intent": "shutdown",
+        "text": "shutdown my computer"
+      },
+      {
+        "intent": "shutdown",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "20 seconds",
+            "entity": "TME"
+          }
+        ],
+        "text": "shutdown my computer in 20 seconds"
+      },
+      {
+        "intent": "shutdown",
+        "entities": [
+          {
+            "start": 31,
+            "end": 40,
+            "value": "4 seconds",
+            "entity": "TME"
+          }
+        ],
+        "text": "please shutdown my computer in 4 seconds"
+      },
+      {
+        "intent": "shutdown",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "2 hours",
+            "entity": "TME"
+          }
+        ],
+        "text": "shutdown computer in 2 hours"
+      },
+      {
+        "intent": "shutdown",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "2 minutes",
+            "entity": "TME"
+          }
+        ],
+        "text": "shutdown computer after 2 minutes"
+      },
+      {
+        "intent": "shutdown",
+        "entities": [
+          {
+            "start": 27,
+            "end": 37,
+            "value": "30 minutes",
+            "entity": "TME"
+          }
+        ],
+        "text": "shutdown my computer after 30 minutes"
+      },
+      {
+        "intent": "shutdown",
+        "entities": [
+          {
+            "start": 34,
+            "end": 44,
+            "value": "20 seconds",
+            "entity": "TME"
+          }
+        ],
+        "text": "please shutdown my computer after 20 seconds"
+      },
+      {
+        "intent": "shutdown",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "5 hours",
+            "entity": "TME"
+          }
+        ],
+        "text": "shutdown my computer after 5 hours"
+      },
+      {
+        "intent": "shutdown",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "3 am",
+            "entity": "TME"
+          }
+        ],
+        "text": "shutdown my computer at 3 am"
+      },
+      {
+        "intent": "shutdown",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "12 pm",
+            "entity": "TME"
+          }
+        ],
+        "text": "shutdown my computer at 12 pm"
+      },
+      {
+        "intent": "shutdown",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "6 am",
+            "entity": "TME"
+          }
+        ],
+        "text": "please shutdown my computer at 6 am"
+      },
+      {
+        "intent": "shutdown",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "11 pm",
+            "entity": "TME"
+          }
+        ],
+        "text": "please shutdown my computer at 11 pm"
+      },
+      {
+        "intent": "shutdown",
+        "text": "could you please shutdown my computer"
+      },
+      {
+        "intent": "shutdown",
+        "text": "could you shutdown my computer"
+      },
+      {
+        "intent": "shutdown",
+        "text": "can you kindly shutdown my computer"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

@@ -1,0 +1,1747 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "text": "can you play stitches",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 21,
+                        "value": "stitches",
+                        "entity": "SNG"
+                    }
+                ]
+            },
+            {
+                "text": "can you please play me uptown funk",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 23,
+                        "end": 34,
+                        "value": "uptown funk",
+                        "entity": "SNG"
+                    }
+                ]
+            },
+            {
+                "text": "play one kiss in youtube",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 13,
+                        "value": "one kiss",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 17,
+                        "end": 24,
+                        "value": "youtube",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "can I listen to sunflower from swae lee on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 16,
+                        "end": 25,
+                        "value": "sunflower",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 31,
+                        "end": 39,
+                        "value": "swae lee",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 43,
+                        "end": 50,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "please play me all of me on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 24,
+                        "value": "all of me",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 28,
+                        "end": 35,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "I would like to listen to can't hold us from macklemore on youtube",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 26,
+                        "end": 39,
+                        "value": "can't hold us",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 45,
+                        "end": 55,
+                        "value": "macklemore",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 59,
+                        "end": 66,
+                        "value": "youtube",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "can you play love yourself from justin bieber on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 26,
+                        "value": "love yourself",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 32,
+                        "end": 45,
+                        "value": "justin bieber",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 49,
+                        "end": 56,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "play into the i land by iu on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 20,
+                        "value": "into the i land",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 24,
+                        "end": 26,
+                        "value": "iu",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 30,
+                        "end": 37,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "can you play that's what i like by bruno mars",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 31,
+                        "value": "that's what i like",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 35,
+                        "end": 45,
+                        "value": "bruno mars",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "could you play too good at goodbyes from sam smith",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 35,
+                        "value": "too good at goodbyes",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 41,
+                        "end": 50,
+                        "value": "sam smith",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "can you please play taki tak from dj snake on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 20,
+                        "end": 28,
+                        "value": "taki tak",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 34,
+                        "end": 42,
+                        "value": "dj snake",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 46,
+                        "end": 53,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "can you please play circles by post malone",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 20,
+                        "end": 27,
+                        "value": "circles",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 31,
+                        "end": 42,
+                        "value": "post malone",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "play me sugar by maroon 5 on youtube",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 13,
+                        "value": "sugar",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 17,
+                        "end": 25,
+                        "value": "maroon 5",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 29,
+                        "end": 36,
+                        "value": "youtube",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "play paradise by bazzi",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 13,
+                        "value": "paradise",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 17,
+                        "end": 22,
+                        "value": "bazzi",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "please play better when i'm dancing by meghan trainor on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 12,
+                        "end": 35,
+                        "value": "better when i'm dancing",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 39,
+                        "end": 53,
+                        "value": "meghan trainor",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 57,
+                        "end": 64,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "could you play me cheerleader by omi",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 18,
+                        "end": 29,
+                        "value": "cheerleader",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 33,
+                        "end": 36,
+                        "value": "omi",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "could you play me what do you mean from justin bieber on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 18,
+                        "end": 34,
+                        "value": "what do you mean",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 40,
+                        "end": 53,
+                        "value": "justin bieber",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 57,
+                        "end": 64,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "can I listen to can't stop the feeling by justin timberlake",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 16,
+                        "end": 38,
+                        "value": "can't stop the feeling",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 42,
+                        "end": 59,
+                        "value": "justin timberlake",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "please play see you again from wiz khalifa",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 12,
+                        "end": 25,
+                        "value": "see you again",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 31,
+                        "end": 42,
+                        "value": "wiz khalifa",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "please play me goosebumps on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 25,
+                        "value": "goosebumps",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 29,
+                        "end": 36,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "can you play i don't care from ed sheeran",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 25,
+                        "value": "i don't care",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 31,
+                        "end": 41,
+                        "value": "ed sheeran",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "play come through from jeremy zucker",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 17,
+                        "value": "come through",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 23,
+                        "end": 36,
+                        "value": "jeremy zucker",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "I would like to listen to let me love you by dj snake",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 26,
+                        "end": 41,
+                        "value": "let me love you",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 45,
+                        "end": 53,
+                        "value": "dj snake",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "please play in my feelings from drake on youtube",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 12,
+                        "end": 26,
+                        "value": "in my feelings",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 32,
+                        "end": 37,
+                        "value": "drake",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 41,
+                        "end": 48,
+                        "value": "youtube",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "could you play me how you like that from blackpink",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 18,
+                        "end": 35,
+                        "value": "how you like that",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 41,
+                        "end": 50,
+                        "value": "blackpink",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "play despacito in spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 14,
+                        "value": "despacito",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 18,
+                        "end": 25,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "play rockabye by clean bandit on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 13,
+                        "value": "rockabye",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 17,
+                        "end": 29,
+                        "value": "clean bandit",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 33,
+                        "end": 40,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "play me god's plan from drake on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 18,
+                        "value": "god's plan",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 24,
+                        "end": 29,
+                        "value": "drake",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 33,
+                        "end": 40,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "can I listen to attention by charlie puth on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 16,
+                        "end": 25,
+                        "value": "attention",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 29,
+                        "end": 41,
+                        "value": "charlie puth",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 45,
+                        "end": 52,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "can I listen to stay with me from sam smith",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 16,
+                        "end": 28,
+                        "value": "stay with me",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 34,
+                        "end": 43,
+                        "value": "sam smith",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "can you please play wake me up from avicii",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 20,
+                        "end": 30,
+                        "value": "wake me up",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 36,
+                        "end": 42,
+                        "value": "avicii",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "could you play me cheap thrills by sia on netflix",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 18,
+                        "end": 31,
+                        "value": "cheap thrills",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 35,
+                        "end": 38,
+                        "value": "sia",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 42,
+                        "end": 49,
+                        "value": "netflix",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "I would like to listen to home with you by madison beer on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 26,
+                        "end": 39,
+                        "value": "home with you",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 43,
+                        "end": 55,
+                        "value": "madison beer",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 59,
+                        "end": 66,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "please play someone you loved by lewis capaldi",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 12,
+                        "end": 29,
+                        "value": "someone you loved",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 33,
+                        "end": 46,
+                        "value": "lewis capaldi",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "play me love sick girls from blackpink",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 23,
+                        "value": "love sick girls",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 29,
+                        "end": 38,
+                        "value": "blackpink",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "please play me unforgettable",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 28,
+                        "value": "unforgettable",
+                        "entity": "SNG"
+                    }
+                ]
+            },
+            {
+                "text": "can you play counting star by one republic on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 26,
+                        "value": "counting star",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 30,
+                        "end": 42,
+                        "value": "one republic",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 46,
+                        "end": 53,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "can you play cold water on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 23,
+                        "value": "cold water",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 27,
+                        "end": 34,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "I would like to listen to i like me better from lauv",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 26,
+                        "end": 42,
+                        "value": "i like me better",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 48,
+                        "end": 52,
+                        "value": "lauv",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "play the hills",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 14,
+                        "value": "the hills",
+                        "entity": "SNG"
+                    }
+                ]
+            },
+            {
+                "text": "could you play riptide by vance joy",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 22,
+                        "value": "riptide",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 26,
+                        "end": 35,
+                        "value": "vance joy",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "can you play old town road",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 26,
+                        "value": "old town road",
+                        "entity": "SNG"
+                    }
+                ]
+            },
+            {
+                "text": "can you please play me ride on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 23,
+                        "end": 27,
+                        "value": "ride",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 31,
+                        "end": 38,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "play me dance monkey by tones",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 20,
+                        "value": "dance monkey",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 24,
+                        "end": 29,
+                        "value": "tones",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "can you please play me only the young",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 23,
+                        "end": 37,
+                        "value": "only the young",
+                        "entity": "SNG"
+                    }
+                ]
+            },
+            {
+                "text": "can you please play i don't wanna live forever by zayn on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 20,
+                        "end": 46,
+                        "value": "i don't wanna live forever",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 50,
+                        "end": 54,
+                        "value": "zayn",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 58,
+                        "end": 65,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "please play me work from home",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 29,
+                        "value": "work from home",
+                        "entity": "SNG"
+                    }
+                ]
+            },
+            {
+                "text": "can you play psycho on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 19,
+                        "value": "psycho",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 23,
+                        "end": 30,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "can you please play me thank you on ariana grande",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 23,
+                        "end": 32,
+                        "value": "thank you",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 36,
+                        "end": 49,
+                        "value": "ariana grande",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "could you play chandelier from sia on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 25,
+                        "value": "chandelier",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 31,
+                        "end": 34,
+                        "value": "sia",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 38,
+                        "end": 45,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "could you play old fashioned by bruno major on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 28,
+                        "value": "old fashioned",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 32,
+                        "end": 43,
+                        "value": "bruno major",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 47,
+                        "end": 54,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "play without me on youtube",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 15,
+                        "value": "without me",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 19,
+                        "end": 26,
+                        "value": "youtube",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "play faded on netflix",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 10,
+                        "value": "faded",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 14,
+                        "end": 21,
+                        "value": "netflix",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "can you play don't start now",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 28,
+                        "value": "don't start now",
+                        "entity": "SNG"
+                    }
+                ]
+            },
+            {
+                "text": "can you please play me don't let me down",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 23,
+                        "end": 40,
+                        "value": "don't let me down",
+                        "entity": "SNG"
+                    }
+                ]
+            },
+            {
+                "text": "play say you won't let go in spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 25,
+                        "value": "say you won't let go",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 29,
+                        "end": 36,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "can I listen to shallow from lady gaga on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 16,
+                        "end": 23,
+                        "value": "shallow",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 29,
+                        "end": 38,
+                        "value": "lady gaga",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 42,
+                        "end": 49,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "please play me moonlight on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 24,
+                        "value": "moonlight",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 28,
+                        "end": 35,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "I would like to listen to bad blood from taylor swift on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 26,
+                        "end": 35,
+                        "value": "bad blood",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 41,
+                        "end": 53,
+                        "value": "taylor swift",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 57,
+                        "end": 64,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "can you play take me to church from hozier on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 30,
+                        "value": "take me to church",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 36,
+                        "end": 42,
+                        "value": "hozier",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 46,
+                        "end": 53,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "play lovely by billie eilish on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 11,
+                        "value": "lovely",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 15,
+                        "end": 28,
+                        "value": "billie eilish",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 32,
+                        "end": 39,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "can you play hello by adele",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 18,
+                        "value": "hello",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 22,
+                        "end": 27,
+                        "value": "adele",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "could you play eastside from benny blanco",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 23,
+                        "value": "eastside",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 29,
+                        "end": 41,
+                        "value": "benny blanco",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "can you please play sicko mode from travis scott on youtube",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 20,
+                        "end": 30,
+                        "value": "sicko mode",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 36,
+                        "end": 48,
+                        "value": "travis scott",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 52,
+                        "end": 59,
+                        "value": "youtube",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "can you please play sorry by justin bieber",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 20,
+                        "end": 25,
+                        "value": "sorry",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 29,
+                        "end": 42,
+                        "value": "justin bieber",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "play me mi gente by willy william on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 16,
+                        "value": "mi gente",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 20,
+                        "end": 33,
+                        "value": "willy william",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 37,
+                        "end": 44,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "play seven years by lukas graham",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 16,
+                        "value": "seven years",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 20,
+                        "end": 32,
+                        "value": "lukas graham",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "please play radioactive by imagine dragons on netflix",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 12,
+                        "end": 23,
+                        "value": "radioactive",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 27,
+                        "end": 42,
+                        "value": "imagine dragons",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 46,
+                        "end": 53,
+                        "value": "netflix",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "could you play me humble by kendrick lamar",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 18,
+                        "end": 24,
+                        "value": "humble",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 28,
+                        "end": 42,
+                        "value": "kendrick lamar",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "could you play me girls like you from maroon 5 on youtube",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 18,
+                        "end": 32,
+                        "value": "girls like you",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 38,
+                        "end": 46,
+                        "value": "maroon 5",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 50,
+                        "end": 57,
+                        "value": "youtube",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "can I listen to something just like this by coldplay",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 16,
+                        "end": 40,
+                        "value": "something just like this",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 44,
+                        "end": 52,
+                        "value": "coldplay",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "please play i fall apart from post malone",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 12,
+                        "end": 24,
+                        "value": "i fall apart",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 30,
+                        "end": 41,
+                        "value": "post malone",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "please play me treat you better on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 31,
+                        "value": "treat you better",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 35,
+                        "end": 42,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "can you play demons from imagine dragons",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 19,
+                        "value": "demons",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 25,
+                        "end": 40,
+                        "value": "imagine dragons",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "play i like it from cardi b",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 14,
+                        "value": "i like it",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 20,
+                        "end": 27,
+                        "value": "cardi b",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "I would like to listen to photograph by ed sheeran",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 26,
+                        "end": 36,
+                        "value": "photograph",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 40,
+                        "end": 50,
+                        "value": "ed sheeran",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "please play blueming from iu on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 12,
+                        "end": 20,
+                        "value": "blueming",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 26,
+                        "end": 28,
+                        "value": "iu",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 32,
+                        "end": 39,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "could you play me happier from marshmello",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 18,
+                        "end": 25,
+                        "value": "happier",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 31,
+                        "end": 41,
+                        "value": "marshmello",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "play we don't talk anymore in spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 26,
+                        "value": "we don't talk anymore",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 30,
+                        "end": 37,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "play let her go by passenger on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 15,
+                        "value": "let her go",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 19,
+                        "end": 28,
+                        "value": "passenger",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 32,
+                        "end": 39,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "play me jocelyn flores from xxxtentacion on netflix",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 22,
+                        "value": "jocelyn flores",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 28,
+                        "end": 40,
+                        "value": "xxxtentacion",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 44,
+                        "end": 51,
+                        "value": "netflix",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "can I listen to seven rings by ariana grande on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 16,
+                        "end": 27,
+                        "value": "seven rings",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 31,
+                        "end": 44,
+                        "value": "ariana grande",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 48,
+                        "end": 55,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "can I listen to idgaf from dua lipa",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 16,
+                        "end": 21,
+                        "value": "idgaf",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 27,
+                        "end": 35,
+                        "value": "dua lipa",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "can you please play havana from camila cabello",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 20,
+                        "end": 26,
+                        "value": "havana",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 32,
+                        "end": 46,
+                        "value": "camila cabello",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "could you play me i took a pill in ibiza by mike posner on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 18,
+                        "end": 40,
+                        "value": "i took a pill in ibiza",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 44,
+                        "end": 55,
+                        "value": "mike posner",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 59,
+                        "end": 66,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "I would like to listen to this is what you came for by calvin harris on youtube",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 26,
+                        "end": 51,
+                        "value": "this is what you came for",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 55,
+                        "end": 68,
+                        "value": "calvin harris",
+                        "entity": "AST"
+                    },
+                    {
+                        "start": 72,
+                        "end": 79,
+                        "value": "youtube",
+                        "entity": "PLT"
+                    }
+                ]
+            },
+            {
+                "text": "please play stressed out by twenty one pilots",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 12,
+                        "end": 24,
+                        "value": "stressed out",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 28,
+                        "end": 45,
+                        "value": "twenty one pilots",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "play me heathen from twenty one pilots",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 15,
+                        "value": "heathen",
+                        "entity": "SNG"
+                    },
+                    {
+                        "start": 21,
+                        "end": 38,
+                        "value": "twenty one pilots",
+                        "entity": "AST"
+                    }
+                ]
+            },
+            {
+                "text": "play me a song",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play a song on spotify",
+                "intent": "play_song",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 22,
+                        "value": "spotify",
+                        "entity": "PLT"
+                    }
+                ]
+            }
+        ],
+        "regex_features": [],
+        "entity_synonyms": []
+    }
+}

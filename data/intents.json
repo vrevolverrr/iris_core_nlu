@@ -1,0 +1,793 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "text": "can you play stitches",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you please play me uptown funk",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play one kiss in youtube",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can I listen to sunflower from swae lee on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "please play me all of me on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "I would like to listen to can't hold us from macklemore on youtube",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you play love yourself from justin bieber on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play into the i land by iu on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you play that's what i like by bruno mars",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "could you play too good at goodbyes from sam smith",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you please play taki tak from dj snake on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you please play circles by post malone",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play me sugar by maroon 5 on youtube",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play paradise by bazzi",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "please play better when i'm dancing by meghan trainor on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "could you play me cheerleader by omi",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "could you play me what do you mean from justin bieber on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can I listen to can't stop the feeling by justin timberlake",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "please play see you again from wiz khalifa",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "please play me goosebumps on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you play i don't care from ed sheeran",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play come through from jeremy zucker",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "I would like to listen to let me love you by dj snake",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "please play in my feelings from drake on youtube",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "could you play me how you like that from blackpink",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play despacito in spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play rockabye by clean bandit on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play me god's plan from drake on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can I listen to attention by charlie puth on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can I listen to stay with me from sam smith",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you please play wake me up from avicii",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "could you play me cheap thrills by sia on netflix",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "I would like to listen to home with you by madison beer on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "please play someone you loved by lewis capaldi",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play me love sick girls from blackpink",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "please play me unforgettable",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you play counting star by one republic on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you play cold water on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "I would like to listen to i like me better from lauv",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play the hills",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "could you play riptide by vance joy",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you play old town road",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you please play me ride on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play me dance monkey by tones",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you please play me only the young",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you please play i don't wanna live forever by zayn on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "please play me work from home",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you play psycho on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you please play me thank you on ariana grande",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "could you play chandelier from sia on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "could you play old fashioned by bruno major on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play without me on youtube",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play faded on netflix",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you play don't start now",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you please play me don't let me down",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play say you won't let go in spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can I listen to shallow from lady gaga on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "please play me moonlight on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "I would like to listen to bad blood from taylor swift on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you play take me to church from hozier on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play lovely by billie eilish on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you play hello by adele",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "could you play eastside from benny blanco",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you please play sicko mode from travis scott on youtube",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you please play sorry by justin bieber",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play me mi gente by willy william on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play seven years by lukas graham",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "please play radioactive by imagine dragons on netflix",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "could you play me humble by kendrick lamar",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "could you play me girls like you from maroon 5 on youtube",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can I listen to something just like this by coldplay",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "please play i fall apart from post malone",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "please play me treat you better on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you play demons from imagine dragons",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play i like it from cardi b",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "I would like to listen to photograph by ed sheeran",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "please play blueming from iu on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "could you play me happier from marshmello",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play we don't talk anymore in spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play let her go by passenger on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play me jocelyn flores from xxxtentacion on netflix",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can I listen to seven rings by ariana grande on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can I listen to idgaf from dua lipa",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "can you please play havana from camila cabello",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "could you play me i took a pill in ibiza by mike posner on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "I would like to listen to this is what you came for by calvin harris on youtube",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "please play stressed out by twenty one pilots",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play me heathen from twenty one pilots",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play me a song",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "play a song on spotify",
+                "intent": "play_song",
+                "entities": []
+            },
+            {
+                "text": "hello",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hi",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "what's up",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "good morning",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "good afternoon",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "good evening",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "good night",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "shutdown computer",
+                "intent": "shutdown",
+                "entities": []
+            },
+            {
+                "text": "shutdown my computer now",
+                "intent": "shutdown",
+                "entities": []
+            },
+            {
+                "text": "can you please shutdown my computer",
+                "intent": "shutdown",
+                "entities": []
+            },
+            {
+                "text": "shutdown my computer",
+                "intent": "shutdown",
+                "entities": []
+            },
+            {
+                "text": "shutdown my computer in 20 seconds",
+                "intent": "shutdown",
+                "entities": []
+            },
+            {
+                "text": "please shutdown my computer in 4 seconds",
+                "intent": "shutdown",
+                "entities": []
+            },
+            {
+                "text": "shutdown computer in 2 hours",
+                "intent": "shutdown",
+                "entities": []
+            },
+            {
+                "text": "shutdown computer after 2 minutes",
+                "intent": "shutdown",
+                "entities": []
+            },
+            {
+                "text": "shutdown my computer after 30 minutes",
+                "intent": "shutdown",
+                "entities": []
+            },
+            {
+                "text": "please shutdown my computer after 20 seconds",
+                "intent": "shutdown",
+                "entities": []
+            },
+            {
+                "text": "shutdown my computer after 5 hours",
+                "intent": "shutdown",
+                "entities": []
+            },
+            {
+                "text": "set a timer for 2 minutes",
+                "intent": "set_timer",
+                "entities": []
+            },
+            {
+                "text": "set a timer for 3 hours",
+                "intent": "set_timer",
+                "entities": []
+            },
+            {
+                "text": "set a timer for 32 seconds",
+                "intent": "set_timer",
+                "entities": []
+            },
+            {
+                "text": "set a timer of 53 minutes",
+                "intent": "set_timer",
+                "entities": []
+            },
+            {
+                "text": "set a timer of 10 seconds",
+                "intent": "set_timer",
+                "entities": []
+            },
+            {
+                "text": "set a timer of 10 hours",
+                "intent": "set_timer",
+                "entities": []
+            },
+            {
+                "text": "wake me up in 20 minutes",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "wake me up in 2 hours",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "wake me up in 45 seconds",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "set an alarm for 5 minutes",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "set an alarm for 2 hours",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "set an alarm for 23 seconds",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "wake me up after 20 minutes",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "wake me up after 10 seconds",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "wake me up after 4 hours",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "wake me up at 4 p.m.",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "wake me up at 12 p.m.",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "wake me up at 3 a.m.",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "wake me up at 11 a.m.",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "set an alarm for 2 p.m.",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "set an alarm for 10 p.m.",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "set an alarm for 6 a.m.",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "set an alarm for 10 a.m.",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "set an alarm at 7 p.m.",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "set an alarm at 12 p.m.",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "set an alarm at 10 a.m.",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "set an alarm at 4 a.m.",
+                "intent": "set_alarm",
+                "entities": []
+            },
+            {
+                "text": "remind me to off the cooker after 20 minutes",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to cut vegetables after 30 minutes",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to find my leather jacket before I go out",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to turn off the gas stove after 2 hours",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to mop the floor before 9 a.m.",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to complete my homework by tomorrow",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to clean my room today",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to take out the trash in 2 hours",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to reply Jin Hang's message before night",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to submit my homework by 40 minutes",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to wash the vegetables by 8 p.m.",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to buy a new pen and pencil when I'm outside",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to shut the front door at 10 p.m.",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to be at the train station at 5 p.m.",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to attend my class at 4 p.m.",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to check on the cooker after 35 minutes",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to turn off the lights before I sleep",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to read the exercises at 3 a.m.",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to get the exercises from Adrian later today",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to open the door after 5 minutes",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to go to Chemistry class in 2 hours",
+                "intent": "set_reminder",
+                "entities": []
+            },
+            {
+                "text": "remind me to bring the book with me when I leave",
+                "intent": "set_reminder",
+                "entities": []
+            }
+        ],
+        "regex_features": [],
+        "entity_synonyms": []
+    }
+}

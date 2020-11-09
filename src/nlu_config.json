@@ -1,0 +1,5 @@
+{
+    "config_path": "D:\\PersonalProjects\\iris-core-nlu\\config.yml",
+    "models_path": "D:\\PersonalProjects\\iris-core-nlu\\models",
+    "data_path" : "D:\\PersonalProjects\\iris-core-nlu\\data"
+}

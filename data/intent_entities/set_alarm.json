@@ -1,0 +1,260 @@
+{
+    "rasa_nlu_data": {
+      "common_examples": [
+        {
+          "text": "wake me up in 20 minutes",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 14,
+              "end": 24,
+              "value": "20 minutes",
+              "entity": "TME"
+            }
+          ]
+        },
+        {
+          "text": "wake me up in 2 hours",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 14,
+              "end": 21,
+              "value": "2 hours",
+              "entity": "TME"
+            }
+          ]
+        },
+        {
+          "text": "wake me up in 45 seconds",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 14,
+              "end": 24,
+              "value": "45 seconds",
+              "entity": "TME"
+            }
+          ]
+        },
+        {
+          "text": "set an alarm for 5 minutes",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 17,
+              "end": 26,
+              "value": "5 minutes",
+              "entity": "TME"
+            }
+          ]
+        },
+        {
+          "text": "set an alarm for 2 hours",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 17,
+              "end": 24,
+              "value": "2 hours",
+              "entity": "TME"
+            }
+          ]
+        },
+        {
+          "text": "set an alarm for 23 seconds",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 17,
+              "end": 27,
+              "value": "23 seconds",
+              "entity": "TME"
+            }
+          ]
+        },
+        {
+          "text": "wake me up after 20 minutes",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 17,
+              "end": 27,
+              "value": "20 minutes",
+              "entity": "TME"
+            }
+          ]
+        },
+        {
+          "text": "wake me up after 10 seconds",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 17,
+              "end": 27,
+              "value": "10 seconds",
+              "entity": "TME"
+            }
+          ]
+        },
+        {
+          "text": "wake me up after 4 hours",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 17,
+              "end": 24,
+              "value": "4 hours",
+              "entity": "TME"
+            }
+          ]
+        },
+        {
+          "text": "wake me up at 4 pm",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 14,
+              "end": 18,
+              "value": "4 pm",
+              "entity": "TME"
+            }
+          ]
+        },
+        {
+          "text": "wake me up at 12 pm",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 14,
+              "end": 19,
+              "value": "12 pm",
+              "entity": "TME"
+            }
+          ]
+        },
+        {
+          "text": "wake me up at 3 am",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 14,
+              "end": 18,
+              "value": "3 am",
+              "entity": "TME"
+            }
+          ]
+        },
+        {
+          "text": "wake me up at 11 am",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 14,
+              "end": 19,
+              "value": "11 am",
+              "entity": "TME"
+            }
+          ]
+        },
+        {
+          "text": "set an alarm for 2 pm",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 17,
+              "end": 21,
+              "value": "2 pm",
+              "entity": "TME"
+            }
+          ]
+        },
+        {
+          "text": "set an alarm for 10 pm",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 17,
+              "end": 22,
+              "value": "10 pm",
+              "entity": "TME"
+            }
+          ]
+        },
+        {
+          "text": "set an alarm for 6 am",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 17,
+              "end": 21,
+              "value": "6 am",
+              "entity": "TME"
+            }
+          ]
+        },
+        {
+          "text": "set an alarm for 10 am",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 17,
+              "end": 22,
+              "value": "10 am",
+              "entity": "TME"
+            }
+          ]
+        },
+        {
+          "text": "set an alarm at 7 pm",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 16,
+              "end": 20,
+              "value": "7 pm",
+              "entity": "TME"
+            }
+          ]
+        },
+        {
+          "text": "set an alarm at 12 pm",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 16,
+              "end": 21,
+              "value": "12 pm",
+              "entity": "TME"
+            }
+          ]
+        },
+        {
+          "text": "set an alarm at 10 am",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 16,
+              "end": 21,
+              "value": "10 am",
+              "entity": "TME"
+            }
+          ]
+        },
+        {
+          "text": "set an alarm at 4 am",
+          "intent": "set_alarm",
+          "entities": [
+            {
+              "start": 16,
+              "end": 20,
+              "value": "4 am",
+              "entity": "TME"
+            }
+          ]
+        }
+      ],
+      "regex_features": [],
+      "entity_synonyms": []
+    }
+  }

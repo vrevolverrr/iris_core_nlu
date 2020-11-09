@@ -1,0 +1,80 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "text": "set a timer for 2 minutes",
+                "intent": "set_timer",
+                "entities": [
+                    {
+                        "start": 16,
+                        "end": 25,
+                        "value": "2 minutes",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "set a timer for 3 hours",
+                "intent": "set_timer",
+                "entities": [
+                    {
+                        "start": 16,
+                        "end": 23,
+                        "value": "3 hours",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "set a timer for 32 seconds",
+                "intent": "set_timer",
+                "entities": [
+                    {
+                        "start": 16,
+                        "end": 26,
+                        "value": "32 seconds",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "set a timer of 53 minutes",
+                "intent": "set_timer",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 25,
+                        "value": "53 minutes",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "set a timer of 10 seconds",
+                "intent": "set_timer",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 25,
+                        "value": "10 seconds",
+                        "entity": "TME"
+                    }
+                ]
+            },
+            {
+                "text": "set a timer of 10 hours",
+                "intent": "set_timer",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 23,
+                        "value": "10 hours",
+                        "entity": "TME"
+                    }
+                ]
+            }
+        ],
+        "regex_features": [],
+        "entity_synonyms": []
+    }
+}

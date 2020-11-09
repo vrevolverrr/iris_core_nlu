@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\PersonalProjects\\iris-core-nlu\\models\\default\\play_song\\component_6_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "D:\\PersonalProjects\\iris-core-nlu\\models\\default\\play_song\\component_6_EmbeddingIntentClassifier.ckpt"

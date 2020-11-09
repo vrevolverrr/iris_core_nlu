@@ -1,14 +1,18 @@
 import os
 import sys
 import json
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+warnings.simplefilter(action='ignore', category=Warning)
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' 
 from rasa_nlu import config
 from rasa_nlu.components import ComponentBuilder
 from rasa_nlu.model import Trainer, Interpreter
 from rasa_nlu.training_data import load_data
-from warnings import simplefilter 
+import tensorflow as tf
+tf.logging.set_verbosity(tf.logging.ERROR)
+if type(tf.contrib) != type(tf): tf.contrib._warning = None
 from src.Intent import Intent
-
-simplefilter(action='ignore', category=FutureWarning)
 
 class NLUModel:
     def __init__(self, config_path, models_path, data_path):

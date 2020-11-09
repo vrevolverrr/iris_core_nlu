@@ -27,7 +27,7 @@ $ python ./Model.py train-intents
 
 To only train entity extraction models :
 ```sh
-$ python ./Model.py train-intents
+$ python ./Model.py train-entities
 ```
 
 #### Training Data

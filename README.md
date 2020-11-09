@@ -8,7 +8,7 @@ The intent classification model is based on Tensorflow embeddings trained from i
 Project Iris uses Python Rasa NLU with Tensorflow backend to train models for intent classification and entitity extraction.
 Intent Classification models are seperate from Entitiy Extraction models.
 
-This module is desinged to work as a subprocess where I/O is dont through stdin and stdout.
+This module is desinged to work as a subprocess where I/O is done through stdin and stdout.
 
 To start the process :
 ```sh

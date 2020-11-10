@@ -13,8 +13,10 @@ import tensorflow as tf
 tf.logging.set_verbosity(tf.logging.ERROR)
 if type(tf.contrib) != type(tf): tf.contrib._warning = None
 from src.Intent import Intent
+from src.Interprocess import InterprocessHandler
 
 class NLUModel:
+    """ Instantiates the model """
     def __init__(self, config_path, models_path, data_path):
         config_file = config.load(config_path)
         self.builder = ComponentBuilder(use_cache=True)
@@ -81,16 +83,18 @@ class NLUModel:
 def initalise_nlu():
     model.load_intents_model()
     model.load_entities_model()
-    while True:
-        intent = model.parse_as_intent(sys.stdin.readline().strip())
-        sys.stdout.write(str(intent.most_probable_intent))
-        sys.stdout.write(" & ")
-        sys.stdout.write(str(intent.entities))
-        sys.stdout.write(" & ")
-        sys.stdout.write(str(intent.all_probable_intents))
-        sys.stdout.write("\n")
-        sys.stdout.flush()
+    ipcHandler = InterprocessHandler(result_function = result_function)
+    ipcHandler.loop()
+    
+def result_function(message: str) -> str:
+    intent = model.parse_as_intent(message)
 
+    result = dict()
+    result["intent"] = intent.most_probable_intent["name"]
+    result["entities"] = intent.entities
+    result ["intent_ranking"] = intent.all_probable_intents
+
+    return json.dumps(result)
 
 def train_all_models():
     model.train_intents_model()

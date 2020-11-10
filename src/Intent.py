@@ -12,7 +12,7 @@ class Intent:
 
     @property
     def all_probable_intents(self) -> list:
-        return self.__intent_data["intent_ranking"]
+        return [intent for intent in self.__intent_data["intent_ranking"] if intent["confidence"] > 0.0]
 
     @property
     def entities(self) -> dict:

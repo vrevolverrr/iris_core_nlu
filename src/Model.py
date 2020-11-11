@@ -80,7 +80,7 @@ class NLUModel(InterprocessHandler):
 
         return entities
     
-    """ Implementation of InterprocessHandler class abstract method """
+    """ Implementation of base class abstract method """
     def result_function(self, message: str) -> str:
         intent = self.parse_as_intent(message)
 
@@ -102,9 +102,9 @@ class NLUModel(InterprocessHandler):
 
 if __name__ == "__main__":
     nlu_config = {
-    "config_path": "D:\\PersonalProjects\\iris-core-nlu\\config.yml",
-    "models_path": "D:\\PersonalProjects\\iris-core-nlu\\models",
-    "data_path" : "D:\\PersonalProjects\\iris-core-nlu\\data"
+    "config_path": os.environ["NLU_CONFIG"],
+    "models_path": os.environ["NLU_MODELS"],
+    "data_path" : os.environ["NLU_DATA"]
     }
 
     model = NLUModel(

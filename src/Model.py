@@ -15,7 +15,7 @@ if type(tf.contrib) != type(tf): tf.contrib._warning = None
 from src.Intent import Intent
 from src.Interprocess import InterprocessHandler
 
-class NLUModel:
+class NLUModel(InterprocessHandler):
     """ Instantiates the model """
     def __init__(self, config_path, models_path, data_path):
         config_file = config.load(config_path)
@@ -79,38 +79,33 @@ class NLUModel:
         entities = self.entity_models[fixed_intent_name].parse(text)
 
         return entities
-
-def initalise_nlu():
-    model.load_intents_model()
-    model.load_entities_model()
-    ipcHandler = InterprocessHandler(result_function = result_function)
-    ipcHandler.loop()
     
-def result_function(message: str) -> str:
-    intent = model.parse_as_intent(message)
+    """ Implementation of InterprocessHandler class abstract method """
+    def result_function(self, message: str) -> str:
+        intent = self.parse_as_intent(message)
 
-    result = dict()
-    result["intent"] = intent.most_probable_intent["name"]
-    result["entities"] = intent.entities
-    result ["intent_ranking"] = intent.all_probable_intents
+        result = dict()
+        result["intent"] = intent.most_probable_intent["name"]
+        result["entities"] = intent.entities
+        result ["intent_ranking"] = intent.all_probable_intents
 
-    return json.dumps(result)
-
-def train_all_models():
-    model.train_intents_model()
-    model.train_entitiy_models()
-    print("Training finished")
-
-def train_intents_model():
-    model.train_intents_model()
-    print("Training finished")
-
-def train_entities_model():
-    model.train_entitiy_models()
-    print("Training finished")
+        return json.dumps(result)
+    
+    def initalise_nlu(self):
+        self.load_intents_model()
+        self.load_entities_model()
+        self.loop()
+    
+    def train_all_models(self):
+        self.train_intents_model()
+        self.train_entitiy_models()
 
 if __name__ == "__main__":
-    nlu_config = json.load(open("nlu_config.json", 'r'))
+    nlu_config = {
+    "config_path": "D:\\PersonalProjects\\iris-core-nlu\\config.yml",
+    "models_path": "D:\\PersonalProjects\\iris-core-nlu\\models",
+    "data_path" : "D:\\PersonalProjects\\iris-core-nlu\\data"
+    }
 
     model = NLUModel(
         config_path=nlu_config["config_path"], 
@@ -119,10 +114,10 @@ if __name__ == "__main__":
     )
     
     methods = {
-        "start": initalise_nlu,
-        "train-models": train_all_models,
-        "train-intents": train_intents_model,
-        "train-entities": train_entities_model
+        "start": model.initalise_nlu,
+        "train-models": model.train_all_models,
+        "train-intents": model.train_intents_model,
+        "train-entities": model.train_entitiy_models
     }
 
     try:
@@ -131,6 +126,8 @@ if __name__ == "__main__":
         else:
             methods[sys.argv[1]]()
     except IndexError:
-        print("No command found")
+        sys.stdout.write("Command not found")
+        sys.stdout.flush()
     except KeyError:
-        print("Command not found")
+        sys.stdout.write("Command not found")
+        sys.stdout.flush()
